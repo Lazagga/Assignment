@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run problem1 Python",
+      "type": "shell",
+      "command": "python",
+      "args": ["${workspaceFolder}/problem1/maximum_positive_segment.py"],
+      "group": "test"
+    },
+    {
+      "label": "Run problem2 Python",
+      "type": "shell",
+      "command": "python",
+      "args": ["${workspaceFolder}/problem2/stateful_pipeline.py"],
+      "group": "test"
+    }
+  ]
+}
